@@ -4,6 +4,7 @@ import autoprefixer from 'autoprefixer'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: process.env.NODE_ENV === 'production' ? '/hbl8/' : '/',
   plugins: [react()],
   css: {
     postcss: {
