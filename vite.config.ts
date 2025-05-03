@@ -6,7 +6,7 @@ import autoprefixer from 'autoprefixer'
 export default defineConfig({
   base: '/',
   build: {
-    outDir: 'docs',
+    outDir: 'dist',
     assetsDir: 'assets',
     rollupOptions: {
       output: {
