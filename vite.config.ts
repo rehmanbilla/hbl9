@@ -6,7 +6,7 @@ import autoprefixer from 'autoprefixer'
 export default defineConfig({
   base: '/',
   build: {
-    outDir: 'dist',
+    outDir: 'dist', // Ensure this matches Vercel output directory
     assetsDir: 'assets',
     rollupOptions: {
       output: {
